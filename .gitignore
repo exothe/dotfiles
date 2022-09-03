@@ -1,0 +1,12 @@
+/*
+!.gitignore
+!/README.md
+
+# All directories that are being tracted
+!/zsh/
+!/tmux/
+
+# zsh ignores
+/zsh/.zcompdump
+/zsh/zsh-export
+/zsh/plugins/

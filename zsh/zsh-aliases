@@ -1,0 +1,8 @@
+alias v='nvim'
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+
+function mcd() {
+	mkdir -p -- "$1" &&
+		cd -P -- "$1"
+}
