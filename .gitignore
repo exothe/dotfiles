@@ -1,6 +1,8 @@
 /*
 !.gitignore
 !/README.md
+!/install.sh
+!/scripts/
 
 # All directories that are being tracted
 !/zsh/
