@@ -19,7 +19,6 @@ zsh_add_file "zsh-export"
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "hlissner/zsh-autopair"
-source /etc/zsh_command_not_found
 
 
 # History in cache directory:
