@@ -7,6 +7,7 @@ case "$( grep -Eoi 'Ubuntu|Arch' /etc/issue )" in
     ;;
 "Arch")
     pm="pacman"
+    sudo pacman -Sy
     ;;
 *)
     echo Your distribution is not supported by this install script!
