@@ -7,8 +7,12 @@
 # All directories that are being tracted
 !/zsh/
 !/tmux/
+!/qtile/
 
 # zsh ignores
 /zsh/.zcompdump
 /zsh/zsh-export
 /zsh/plugins/
+
+# other ignores
+**/__pycache__
