@@ -8,6 +8,7 @@
 !/zsh/
 !/tmux/
 !/qtile/
+!/alacritty/
 
 # zsh ignores
 /zsh/.zcompdump
