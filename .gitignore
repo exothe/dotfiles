@@ -13,6 +13,7 @@
 # zsh ignores
 /zsh/.zcompdump
 /zsh/zsh-export
+/zsh/zsh-variables
 /zsh/plugins/
 
 # other ignores

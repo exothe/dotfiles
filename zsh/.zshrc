@@ -10,6 +10,7 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 # Other config files
+zsh_add_file "zsh-variables"
 zsh_add_file "zsh-prompt"
 zsh_add_file "zsh-aliases"
 zsh_add_file "zsh-vim-bindings"
