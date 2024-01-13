@@ -9,6 +9,11 @@
 !/tmux/
 !/qtile/
 !/alacritty/
+!/git/
+!/hypr/
+!/waybar/
+!/wofi/
+!/zathura/
 
 # zsh ignores
 /zsh/.zcompdump
@@ -18,3 +23,4 @@
 
 # other ignores
 **/__pycache__
+/hypr/hyprpaper.conf
