@@ -30,3 +30,5 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
 
+# Add this to the end of your config file
+eval "$(zoxide init zsh)"
