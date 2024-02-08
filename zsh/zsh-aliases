@@ -2,6 +2,9 @@ alias v='nvim'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 
+alias gc!='git commit --verbose --amend'
+alias gcn!='git commit --verbose --no-edit --amend'
+
 function mcd() {
 	mkdir -p -- "$1" &&
 		cd -P -- "$1"
