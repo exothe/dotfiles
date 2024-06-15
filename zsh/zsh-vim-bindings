@@ -37,3 +37,5 @@ bindkey '^e' edit-command-line
 # Other bindings
 bindkey -s '^[x' '. ~/bin/cd_project_dir.sh\n'
 bindkey -s '^[e' '. ~/bin/activate-python-env.sh\n'
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward

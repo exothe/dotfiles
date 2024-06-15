@@ -5,6 +5,8 @@ autoload -U colors && colors
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+eval "$(dircolors)"
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
@@ -32,3 +34,7 @@ HISTFILE=~/.cache/zsh/history
 
 # Add this to the end of your config file
 eval "$(zoxide init zsh)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
