@@ -4,6 +4,7 @@ alias ls='ls --color=auto'
 
 alias gc!='git commit --verbose --amend'
 alias gcn!='git commit --verbose --no-edit --amend'
+alias gpf='git push --force-with-lease'
 
 function mcd() {
 	mkdir -p -- "$1" &&
