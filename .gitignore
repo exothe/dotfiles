@@ -15,6 +15,7 @@
 !/wofi/
 !/wlogout/
 !/zathura/
+!/packages.txt
 
 # zsh ignores
 /zsh/.zcompdump
