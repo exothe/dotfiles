@@ -31,4 +31,6 @@ zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]
 
 # Actual prompt
 PROMPT="%B%{$fg[cyan]%}%~%{$reset_color%}"
-PROMPT+="\$vcs_info_msg_0_ $ "
+PROMPT+="\$vcs_info_msg_0_ "
+# makes dollar at the end red if command fails
+PROMPT+='$([[ $? -eq 0 ]] && echo "$ " || echo "%{$fg[red]%}$ " )'
