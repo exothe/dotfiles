@@ -1,6 +1,8 @@
 # lists are : seperated like the PATH env variable
 
-export OBSIDIAN_VAULT=  # obsidian vault location
-export PROJECT_PATH=    # list of project locations
-export CONFIG_PATH=     # list of config file locations
-export PYTHON_ENV_PATH= # location where python environments are stored
+export OBSIDIAN_VAULT=            # obsidian vault location
+export PROJECT_PATH=              # list of project locations
+export CONFIG_PATH=               # list of config file locations
+export PYTHON_ENV_PATH=           # location where python environments are stored
+export HOMESERVER_CLOUD_LOCATION= # an ssh string that contains the location where to push things into
+                                  # the locally hosted cloud. E.g. pi@<ip-address>:/home/pi/cloud
