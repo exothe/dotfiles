@@ -84,9 +84,10 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{:%d.%m.%Y - %H:%M}",
+        "format": "{:%H:%M:%S}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%d.%m.%Y}",
+        "interval": 1,
         "calendar": {
             "format": {
                       "months":     "<span color='#ffead3'><b>{}</b></span>",
